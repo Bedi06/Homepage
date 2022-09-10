@@ -1,0 +1,109 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+
+ul#navbar li a.active {
+  color: white;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+button {
+  color: #FFF;
+  background-color: black;
+  font-weight: bold;
+}
+				
+main{
+  padding-top:6rem;
+}
+svg {
+  position: sticky;
+  z-index: 1;
+}
+
+.jumbotron {
+  padding-top: 7rem;
+  background-image: 
+  url(https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  height: 100vh;
+}
+
+iframe{
+    border-width: 0px;
+}
+
+
+
+.jumbotron h1,
+.jumbotron p {
+  position: relative;
+  left: auto;
+  right: auto;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+}
+h4{
+text-align:center;
+  font size:x-small;
+}
+
+
+
+#projects {
+  background-color: #ECF0F1
+}
+
+
+
+
+footer * {
+  color: white;
+  font size:x-small;
+  padding-top:25px;
+}
+
+#profile-link , #profile-link1 {
+  color:midnightblue;
+}
+.wrapper a {
+  font-size: 2em;
+  padding-right: 10px;
+  
+}
+
+.wrapper a i {
+  transition: transform 0.5s ease-in-out;
+}
+
+.wrapper a i:hover {
+  transform: scale(1.5);
+  
+}
+
+
+  
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
