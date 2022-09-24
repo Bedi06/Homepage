@@ -62,11 +62,13 @@ text-align:center;
 
 
 #projects {
-  background-color: #ECF0F1
+  background-color: #ECF0F1;
 }
 
 
-
+#list{
+	color:black;
+}
 
 footer * {
   color: white;
