@@ -18,7 +18,10 @@ button {
   background-color: black;
   font-weight: bold;
 }
-				
+	
+#button{
+	display:flex;
+}
 main{
   padding-top:6rem;
 }
