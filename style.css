@@ -1,9 +1,3 @@
-/* =================
-  WRITE YOUR CSS HERE.
-  Check the ⌄ for help with formatting and validating your code.
-  You must write some CSS to complete this challenge.
-   ===================
-*/
 
 ul#navbar li a.active {
   color: white;
@@ -18,22 +12,7 @@ button {
   background-color: black;
   font-weight: bold;
 }
-
-#change{
-margin-right:auto;
-margin-left:auto;
-}  
-
-#button {  
-background-color: lightblue;  
-color: black;  
-font-size: 25px;  
-margin: auto;  
-}  
-p{  
-font-size: 25px;  
-}  
-
+				
 main{
   padding-top:6rem;
 }
@@ -53,9 +32,7 @@ svg {
   height: 100vh;
 }
 
-iframe{
-    border-width: 0px;
-}
+
 
 
 
@@ -67,27 +44,37 @@ iframe{
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
+#video {
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
 
 }
+
+#visit{
+  padding-top: 25px;
+ }
+
 h4{
+
 text-align:center;
-  font size:x-small;
+  font-size:x-small;
 }
 
 
 
 #projects {
-  background-color: #ECF0F1;
+  background-color: #ECF0F1
 }
 
 
-#list{
-	color:black;
-}
 
 footer * {
   color: white;
-  font size:x-small;
+  font-size:x-small;
   padding-top:25px;
 }
 
@@ -118,9 +105,3 @@ body {
   height: 100%;
   
 }
-
-/* don't edit this */
-.jest-lite-report__status--pass {
-  background: var(--color-pass);
-}
-.jest-lite-report__errors { display:none }
