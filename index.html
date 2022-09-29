@@ -30,6 +30,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#comment1">Feedback</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -54,13 +57,12 @@
       <div class="row justify-content-center fs-5 text-center">
         <div class="col-md-5 mb-3">
           Hello, my name is Bedi.
-          I'am a London Based Junior Software developer with a 
-          Bachelor of Science in Information Technology .
+          I'am a London Based Junior Software developer .
+          With a Bachelor of Science in Information Technology .
         </div>
         <div class="col-md-5 mb-2">
-         I have a diverse set of skills ranging from Graphic Design, HTML ,CSS ,Java Script & Python.
-          Currently I'am self studying,but I am open to any opportunities for growth and experience.
-          Don't hasitate to contact me for any  queries you may have  .
+         I have a diverse set of skills ranging from design, HTML ,CSS ,Java Script & Python.
+          Currently i'am self studying,but i am open any opportunities for growth and experience.don't hasiatet to contact me for any question or information you may need  .
         </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -143,7 +145,7 @@
               <input type="email" class="form-control" id="email" aria-describedby="email">
             </div>
             <div class="mb-3">
-              <label for="message" class="form-label">Comment</label>
+              <label for="message" class="form-label">Message</label>
               <textarea class="form-control" id="message" rows="3"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
@@ -151,7 +153,39 @@
         </div>
       </div>
     </div>
+  </section>
+
+
+<section>
+    <div class="row text-center mb-3">
+      <div class="col">
+        <h2>Leave your Feedback</h2>
+      </div>
+    </div>
   
+  <div class="row justify-content-center" id="comment1">  
+    <div class="col-md-6">
+          <div class="container1">  
+              <div class="mb-1">
+                  <label>Name:</label><br>
+                  <input id="name1"></input>
+              </div>
+          </div>
+      <div class="container1">
+          <div class="mb-1">
+              <label> Comment:</label> <br>
+              <input id="comment" placeholder="Write a comment"></input>
+              <button v-on:click="addItem()" class='primaryContained float-right' type="submit"id="send">Comment</button>
+              <ul id="display">
+              </ul>
+          </div>
+      </div>
+    </div> 
+  </div>     
+</section><!-- end feedback -->
+  
+
+
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#f7f7f7" fill-opacity="1" d="M0,224L60,224C120,224,240,224,360,218.7C480,213,600,203,720,208C840,213,960,235,1080,240C1200,245,1320,235,1380,229.3L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
       </path>
@@ -178,27 +212,4 @@
   </p>
 </footer>
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
